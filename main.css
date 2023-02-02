@@ -506,6 +506,7 @@ p {
     #banner-1 {
         margin-top: 60px;
         width: 95%;
+        margin:  0 auto;
     }
     #pic-1,
     #pic-2,
