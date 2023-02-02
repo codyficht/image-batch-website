@@ -602,7 +602,7 @@ p {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-100px) rotate(20deg) translateX(20px) scale(0.9);
+        transform: translateY(-100px) rotate(20deg) translateX(20px) scale(0.95);
     }
 }
 
@@ -612,7 +612,7 @@ p {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-60px) rotate(4deg) translateX(-4px) scale(0.95);
+        transform: translateY(-60px) rotate(4deg) translateX(-4px) scale(0.97);
     }
 }
 
@@ -622,6 +622,6 @@ p {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-30px) rotate(-10deg) translateX(-20px) scale(0.98);
+        transform: translateY(-30px) rotate(-10deg) translateX(-20px) scale(0.99);
     }
 }
