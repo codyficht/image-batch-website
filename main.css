@@ -62,10 +62,11 @@ h4 {
 
     color: whitesmoke;
     margin-right: 30px;
+    transition-duration: 0.2s;
 }
 
-#top-link a:hover {
-    color: #1c1c1c
+#top-links a:hover {
+   
 }
 
 #header-background-lg {
@@ -336,7 +337,7 @@ h4 {
 }
 
 .privacy-title {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .privacy-body {
@@ -432,6 +433,10 @@ p {
     #btm-links {
         margin-top: 100px;
     }
+
+    .privacy-title {
+        margin-top: 250px;
+    }
     
 }
 
@@ -523,6 +528,10 @@ p {
 
     #btm-links {
         margin-top: 70px;
+    }
+
+    .privacy-title {
+        margin-top: 120px;
     }
 }
 
