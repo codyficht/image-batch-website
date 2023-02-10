@@ -6,6 +6,9 @@ footer,
 main {
     display: block;
 }
+.download {
+   display: none;
+}
 
 body {
     margin: 0;
@@ -135,6 +138,7 @@ h4 {
 
 #app-store-link {
     margin-top: 20px;
+    height: 45px;
     width: 100%;
     text-align: center;
 }
