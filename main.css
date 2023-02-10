@@ -10,6 +10,23 @@ main {
    display: none;
 }
 
+.filler {
+    background-color: #1c1c1c;
+    height: 45px;
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+
+.filler-white {
+    background-color: whitesmoke;
+    height: 45px;
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
 body {
     margin: 0;
     background-color: whitesmoke;
