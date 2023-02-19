@@ -7,6 +7,26 @@ main {
     display: block;
 }
 
+.filler-white {
+    background-color: whitesmoke;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.filler {
+    background-color: #1f1f1f;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.download {
+    display: none;
+}
+
 body {
     margin: 0;
     background-color: whitesmoke;
