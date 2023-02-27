@@ -350,9 +350,10 @@ h4 {
 
 #btm-links {
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     margin-top: 100px;
     font-family: 'Helvetica', sans-serif;
+    font-size: 0.8em;
 }
 
 #btm-links a {
@@ -565,6 +566,7 @@ p {
     }
 
     #btm-links {
+        font-size: 0.9em;
         margin-top:90px;
     }
 
