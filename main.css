@@ -41,7 +41,14 @@ html {
 h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
-    font-size: 4em;
+    font-size: 2.5em;
+    color: #1c1c1c;
+}
+
+.section-head {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
     color: #1c1c1c;
 }
 
@@ -508,7 +515,10 @@ p {
         width: 100%;
         margin-top: 100px;
     }
-    h2 {
+    .section-head {
+        font-size: 1.8em;
+    }
+    h2, h1 {
         font-size: 1.9em;
     }
     h3 {
@@ -521,7 +531,7 @@ p {
         justify-content: center;
     }
     #header-logo {
-        margin-left: 4px;
+        margin-left: 0px;
         height: 110px;
     }
     #header-text {
