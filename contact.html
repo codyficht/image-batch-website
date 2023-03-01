@@ -74,6 +74,16 @@
                 <div>
                     <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSekiUr9t0koysXB22ZH4kXWXCsJDjaGyiVSkKt2n3C5DmiRlg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
+                <script>
+                    document.querySelector("iframe").addEventListener("load", 
+                        function() {
+                        window.scrollTo({
+                            top: 200,
+                            left: 0,
+                            behavior: 'smooth'
+                        });
+                    });
+                </script>  
             </div>
         </body>
     </div>
