@@ -9,7 +9,7 @@ main {
 
 .filler-white {
     display:none;
-    background-color: whitesmoke;
+    background-color: #f1f1f1;
     width: 170px;
     height: 40px;
     border-radius: 6px;
@@ -31,7 +31,7 @@ main {
 
 body {
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #fafafa;
 }
 
 html {
