@@ -52,6 +52,13 @@ h1 {
     color: #1c1c1c;
 }
 
+.dark-banner {
+    background-image: linear-gradient(40deg, #1f1f1f, #262626);
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 h2 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
@@ -64,6 +71,10 @@ h3 {
     font-weight: 500;
     font-size: 1.1em;
     color: #1c1c1c;
+}
+
+.white-h3 {
+    color: #f1f1f1;
 }
 
 h4 {
@@ -634,6 +645,10 @@ p {
     #header-background-xsm {
         display: block;
 
+    }
+
+    .dark-banner {
+        margin-top: 10px;
     }
 }
 
