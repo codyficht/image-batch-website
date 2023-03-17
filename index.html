@@ -1,252 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <!DOCTYPE html>
+<html lang="en">
     <head>
-        <!-- Google tag (gtag.js) -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image-Batch: MacOS Bulk Image Editing Software | Resize, Convert, Compress & More</title>
+        <meta name="description"
+            content="Unlock the power of Image-Batch, an all-in-one MacOS bulk image editing software for resizing, cropping, compressing, converting, watermarking, renaming, and detecting duplicates. Optimize your images efficiently!">
+        <meta name="keywords" content="Image-Batch, MacOS, bulk image editor, image processing, image resizing, image compression, image conversion, image watermarking, image renaming, duplicate detection">
+        <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4EKDRJGFS"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag() { dataLayer.push(arguments); }
             gtag('js', new Date());
-
             gtag('config', 'G-R4EKDRJGFS');
         </script>
-
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Image-Batch</title>
-        <meta name="description" content="Resize, crop, reduce, convert, watermark, or rename hundreds of images at once, and find duplicates! The all-in-one image batch processor for MacOS." />
-        <link href="main.css" rel="stylesheet" />
-        <!-- ****** faviconit.com favicons ****** -->
+        <!-- Favicon -->
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-        <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-        <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-        <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-        <link rel="apple-touch-icon" href="/favicon-57.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-        <meta name="msapplication-TileColor" content="#FFFFFF">
-        <meta name="msapplication-TileImage" content="/favicon-144.png">
-        <meta name="msapplication-config" content="/browserconfig.xml">
-        <!-- ****** faviconit.com favicons ****** -->
-        <meta property="og:title" content="Image-Batch" />
-	    <meta property="og:description" content="Resize, reduce, convert, watermark, or rename hundreds of images at once, and find duplicates! The all-in-one image batch processor for MacOS." />
-	    <meta property="og:image" content="https://raw.githubusercontent.com/codyficht/image-batch-website/main/images/social_banner.png" />
-	    <meta property="og:url" content="https://www.image-batch.com" />
-	    <meta name="twitter:title" content="Image-Batch" />
-	    <meta name="twitter:description" content="Resize, reduce, convert, watermark, or rename hundreds of images at once, and find duplicates! The all-in-one image batch processor for MacOS." />
-	    <meta name="twitter:image" content="https://raw.githubusercontent.com/codyficht/image-batch-website/main/images/social_banner.png" />
-	    <meta name="twitter:card" content="summary_large_image" />
-        <script language="JavaScript" type="text/JavaScript">
-        </script>
+        <!-- Apple Touch Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Image-Batch: Comprehensive MacOS Image Batch Editing Software">
+        <meta property="og:description"
+            content="Effortlessly resize, crop, compress, convert, watermark, rename, and find duplicates in bulk using Image-Batch, the ultimate MacOS image batch editing software.">
+        <meta property="og:image"
+            content="https://raw.githubusercontent.com/codyficht/image-batch-website/main/images/social_banner.png">
+        <meta property="og:image:alt" content="Image-Batch Logo">
+        <meta property="og:url" content="https://www.image-batch.com">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Image-Batch: Comprehensive MacOS Image Batch Editing Software">
+        <meta name="twitter:description"
+            content="Effortlessly resize, crop, compress, convert, watermark, rename, and find duplicates in bulk using Image-Batch, the ultimate MacOS image batch editing software.">
+        <meta name="twitter:image"
+            content="https://raw.githubusercontent.com/codyficht/image-batch-website/main/images/social_banner.png">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="main.css">
     </head>
-    <img id="header-background-lg" src="images/header.png" alt="Header large"/>
-    <img id="header-background-med" src="images/header-med.png" alt="Header medium"/>
-    <img id="header-background-sm" src="images/header-sm.png" alt="Header small"/>
-    <img id="header-background-xsm" src="images/header-xsm.png" alt="Header extra small"/>
-    <div id="top-links">
-        <a href="https://www.youtube.com/@image-batch" target="_blank">Tutorial</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="contact.html">Contact</a>
-    </div>
-    <div id="wrap">
-        <header>
-            <div id="header-container">
-                <img id="header-logo" src="images/icon_512x512@2x@2x.png" alt="Image-Batch Logo"/>
-                <div id="header-text">
-                    <h1 id="header-title"><a href="index.html">Image-Batch</a></h1>
-                    <h3 id="header-info">The All-in-One Image Batch Processor for MacOS.</h3>
-                </div>
-                
-            </div>
-            <div id="app-store-link">
-                <div class="filler"></div>
-                <a href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank"><img class="download" src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store"/></a>
-            </div>
-        </header>
-        <body onload="">
-            <div id="top-container">
-                <div id="banner-1">
-                    <h2>All of your image batch processing needs in one place.</h2>
-                </div>
-                    <div id="main-image">
-                        <img id="base" src="images/hider.png" alt="Logo hider"/>
-                        <img id="base" src="images/base_top.png" alt="Base top"/>
-                        <img id="pic-3" src="images/pic_3s.png" alt="Picture 3"/>
-                        <img id="pic-2" src="images/pic_2s.png" alt="Picture 2"/>
-                        <img id="pic-1" src="images/pic_1s.png" alt="Picture 1"/>
-                        <img id="base-btm" src="images/base_btm.png" alt="Base bottom"/>
-                        <img id="base-shadow" src="images/base_shadow.png" alt="Base shadow"/>
-                    </div>
-            </div>
-            
-            <div id="content-container">
-                <div class="dark-banner">
-                    <h3 class="white-h3"><b>Resize, crop, reduce/compress, convert, watermark or rename hundreds of images at once, and find duplicates!</b></h3>
-                </div>
-                <div class="file-types">
-                    <h4 class="section-h4"><b>Supported image file types:</b> JPEG/JPG, PNG, HEIF, TIFF</h4>
-                </div>
-                <div class="section-head">
-                    <h2 class="section-head">Features</h2>
-                </div>
-                <div class="row">
-                    <div class="column left-img">
-                        <img class="body-img" src="images/resize.png" alt="Batch resize"/>
-                    </div>
-                    <div class="column left">
-                        <div>
-                            <h2 class="feature-title">Resize</h2>
-                            <h4 class="feature-text">Resize a batch of images by width or height while maintaining aspect ratios.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-rev">
-                    <div class="column right">
-                        <div>
-                            <h2 class="feature-title">Reduce by Percent</h2>
-                            <h4 class="feature-text">Reduce the file size of a batch of images by adjusting the reduction percentage slider.</h4>
-                        </div>
-                    </div>
-                    <div class="column right-img">
-                        <img class="body-img" src="images/ReducePercent.png" alt="Batch reduce by percent"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column left-img">
-                        <img class="body-img" src="images/ReduceSize.png" alt="Batch reduce by size"/>
-                    </div>
-                    <div class="column left">
-                        <div>
-                            <h2 class="feature-title">Reduce by File Size</h2>
-                            <h4 class="feature-text">Reduce the file size of a batch of images by specifying a desired maximum file size.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-rev">
-                    <div class="column right">
-                        <div>
-                            <h2 class="feature-title">Convert</h2>
-                            <h4 class="feature-text">Convert a batch of images to JPEG, HEIF, PNG, or TIFF by selecting your preferred file type and compression level.</h4>
-                        </div>
-                    </div>
-                    <div class="column right-img">
-                        <img class="body-img" src="images/convert.png" alt="Batch convert"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column left-img">
-                        <img class="body-img" src="images/duplicates.png" alt="Batch find duplicates"/>
-                    </div>
-                    <div class="column left">
-                        <div>
-                            <h2 class="feature-title">Discover Duplicates</h2>
-                            <h4 class="feature-text">Find all duplicates in a group of images.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-rev">
-                    <div class="column right">
-                        <div>
-                            <h2 class="feature-title">Watermark</h2>
-                            <h4 class="feature-text">Add a watermark to a batch of images by selecting a watermark image and its position(s).</h4>
-                        </div>
-                    </div>
-                    <div class="column right-img">
-                        <img class="body-img" src="images/watermark.png" alt="Batch watermark"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column left-img">
-                        <img class="body-img" src="images/rename.png" alt="Batch rename"/>
-                    </div>
-                    <div class="column left">
-                        <div>
-                            <h2 class="feature-title">Rename</h2>
-                            <h4 class="feature-text">Rename a batch of images by entering a chosen file name.</h4>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row row-rev">
-                    <div class="column right">
-                        <div>
-                            <h2 class="feature-title">Crop by Aspect Ratio</h2>
-                            <h4 class="feature-text">Crop a batch of images by entering an aspect ratio.</h4>
-                        </div>
-                    </div>
-                    <div class="column right-img">
-                        <img class="body-img" src="images/CropAspect.png" alt="Batch crop by aspect ratio"/>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="column left-img">
-                        <img class="body-img" src="images/CropSize.png" alt="Batch crop by size"/>
-                    </div>
-                    <div class="column left">
-                        <div>
-                            <h2 class="feature-title">Crop by Size</h2>
-                            <h4 class="feature-text">Crop a batch of images by entering dimension pixel sizes.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-rev">
-                    <div class="column right">
-                        <div>
-                            <h2 class="feature-title">Comfort</h2>
-                            <h4 class="feature-text">Light and dark modes are available based on your system settings.</h4>
-                        </div>
-                    </div>
-                    <div class="column right-img">
-                        <img class="body-img" src="images/LightDark.png" alt="Image-Batch light and dark"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column left-img">
-                        <img class="body-img" src="images/messages.png" alt="Image Batch messages"/>
-                    </div>
-                    <div class="column left">
-                        <div>
-                            <h2 class="feature-title">Alerts and Messages</h2>
-                            <h4 class="feature-text">Convenient and informative message system.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-rev">
-                    <div class="column right">
-                        <div>
-                            <h2 class="feature-title">Safety</h2>
-                            <h4 class="feature-text">Don’t worry about accidentally deleting your original images with the required output folder creation.</h4>
-                        </div>
-                    </div>
-                    <div class="column right-img">
-                        <img class="body-img" src="images/folders.png" alt="Image-Batch folders"/>
-                    </div>
-                </div>
-            </div>
-        </body>
-    </div>
-    <div class="footer">
-        <h2 class="white-h2">Purchase <b>Image-Batch</b> today for $4.99 (USD).</h2>
-        <div id="app-store-link">
-            <div class="filler-white"></div>
-            <a href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank"><img class="download" src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Download on the Mac App Store"/></a>
-        </div>
-        <div id="btm-links">
-            <a href="https://www.youtube.com/@image-batch" target="_blank">Tutorial</a>
+    <body>
+        <img id="header-background-lg" src="images/header.png" alt="Image-Batch Large Header" />
+        <img id="header-background-med" src="images/header-med.png" alt="Image-Batch Medium Header" />
+        <img id="header-background-sm" src="images/header-sm.png" alt="Image-Batch Small Header" />
+        <img id="header-background-xsm" src="images/header-xsm.png" alt="Image-Batch Extra Small Header" />
+        <div id="top-links">
+            <a href="https://www.youtube.com/@image-batch" target="_blank" rel="noopener">Video Tutorial</a>
             <a href="privacy.html">Privacy Policy</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact Us</a>
         </div>
-    </div>
+        <div id="wrap">
+            <header>
+                <div id="header-container">
+                    <img id="header-logo" src="images/icon_512x512@2x@2x.png" alt="Image-Batch App Logo" />
+                    <div id="header-text">
+                        <h1 id="header-title"><a href="index.html">Image-Batch</a></h1>
+                        <h3 id="header-info">Your Ultimate Image Batch Processor for MacOS</h3>
+                    </div>
+                </div>
+                <div id="app-store-link">
+                    <div class="filler"></div>
+                    <a href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank"
+                        rel="noopener"><img class="download"
+                            src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+                            alt="Get Image-Batch on the Mac App Store" /></a>
+                </div>
+            </header>
+            <main>
+                <div id="top-container">
+                    <div id="banner-1">
+                        <h2>Batch process multiple images effortlessly with Image-Batch.</h2>
+                    </div>
+                    <div id="main-image">
+                        <img id="base" src="images/hider.png" alt="Image-Batch Logo Hider" />
+                        <img id="base" src="images/base_top.png" alt="Image-Batch Base Top" />
+                        <img id="pic-3" src="images/pic_3s.png" alt="Image-Batch Sample 3" />
+                        <img id="pic-2" src="images/pic_2s.png" alt="Image-Batch Sample 2" />
+                        <img id="pic-1" src="images/pic_1s.png" alt="Image-Batch Sample 1" />
+                        <img id="base-btm" src="images/base_btm.png" alt="Image-Batch Base Bottom" />
+                        <img id="base-shadow" src="images/base_shadow.png" alt="Image-Batch Base Shadow" />
+                    </div>
+                </div>
+                <div id="content-container">
+                    <div class="dark-banner">
+                        <h3 class="white-h3"><strong>Elevate your batch image editing with resizing, cropping, compression,
+                                format conversion, watermarking, renaming, and duplicate detection!</strong></h3>
+                    </div>
+                    <div class="file-types">
+                        <h4 class="section-h4"><strong>Compatible image formats:</strong> JPEG/JPG, PNG, HEIF, TIFF</h4>
+                    </div>
+                    <div class="section-head">
+                        <h2 class="section-head">Advanced Features for Bulk Image Editing on MacOS</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column left-img">
+                            <img class="body-img" src="images/resize.png" alt="Image-Batch Resize Feature" />
+                        </div>
+                        <div class="column left">
+                            <div>
+                                <h2 class="feature-title">Resize</h2>
+                                <h4 class="feature-text">Effortlessly resize a group of images by width or height while maintaining
+                                    aspect ratios.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-rev">
+                        <div class="column right">
+                            <div>
+                                <h2 class="feature-title">Reduce by Percent</h2>
+                                <h4 class="feature-text">Shrink the file size of multiple images by adjusting the
+                                    reduction percentage slider.</h4>
+                            </div>
+                        </div>
+                        <div class="column right-img">
+                            <img class="body-img" src="images/ReducePercent.png"
+                                alt="Image-Batch Reduce by Percent Feature" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column left-img">
+                            <img class="body-img" src="images/ReduceSize.png"
+                                alt="Image-Batch Reduce by Size Feature" />
+                        </div>
+                        <div class="column left">
+                            <div>
+                                <h2 class="feature-title">Reduce by File Size</h2>
+                                <h4 class="feature-text">Minimize the file size of multiple images by specifying a desired
+                                    maximum file size.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-rev">
+                        <div class="column right">
+                            <div>
+                                <h2 class="feature-title">Convert</h2>
+                                <h4 class="feature-text">Transform a group of images to JPEG, HEIF, PNG, or TIFF by selecting
+                                    your preferred file type and compression level.</h4>
+                            </div>
+                        </div>
+                        <div class="column right-img">
+                            <img class="body-img" src="images/convert.png" alt="Image-Batch Convert Feature" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column left-img">
+                            <img class="body-img" src="images/duplicates.png"
+                                alt="Image-Batch Find Duplicates Feature" />
+                        </div>
+                        <div class="column left">
+                            <div>
+                                <h2 class="feature-title">Discover Duplicates</h2>
+                                <h4 class="feature-text">Identify all duplicates within a collection of images.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-rev">
+                        <div class="column right">
+                            <div>
+                                <h2 class="feature-title">Watermark</h2>
+                                <h4 class="feature-text">Apply a watermark to multiple images by selecting a watermark image
+                                    and its position(s).</h4>
+                            </div>
+                        </div>
+                        <div class="column right-img">
+                            <img class="body-img" src="images/watermark.png" alt="Image-Batch Watermark Feature" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column left-img">
+                            <img class="body-img" src="images/rename.png" alt="Image-Batch Rename Feature" />
+                        </div>
+                        <div class="column left">
+                            <div>
+                                <h2 class="feature-title">Rename</h2>
+                                <h4 class="feature-text">Efficiently rename a group of images by entering a chosen file name pattern.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-rev">
+                        <div class="column right">
+                            <div>
+                                <h2 class="feature-title">Crop by Aspect Ratio</h2>
+                                <h4 class="feature-text">Trim a group of images by inputting a specific aspect ratio.</h4>
+                            </div>
+                        </div>
+                        <div class="column right-img">
+                            <img class="body-img" src="images/CropAspect.png"
+                                alt="Image-Batch Crop by Aspect Ratio Feature" />
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="column left-img">
+                            <img class="body-img" src="images/CropSize.png" alt="Image-Batch Crop by Size Feature" />
+                        </div>
+                        <div class="column left">
+                            <div>
+                                <h2 class="feature-title">Crop by Size</h2>
+                                <h4 class="feature-text">Trim a group of images by inputting desired pixel dimensions.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-rev">
+                        <div class="column right">
+                            <div>
+                                <h2 class="feature-title">Comfort</h2>
+                                <h4 class="feature-text">Choose between light and dark modes based on your system settings.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="column right-img">
+                            <img class="body-img" src="images/LightDark.png"
+                                alt="Image-Batch Light and Dark Mode Feature" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column left-img">
+                            <img class="body-img" src="images/messages.png"
+                                alt="Image-Batch Alerts and Messages Feature" />
+                        </div>
+                        <div class="column left">
+                            <div>
+                                <h2 class="feature-title">Alerts and Messages</h2>
+                                <h4 class="feature-text">User-friendly and informative message system for seamless operation.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-rev">
+                        <div class="column right">
+                            <div>
+                                <h2 class="feature-title">Safety</h2>
+                                <h4 class="feature-text">Prevent accidental deletion of your original images with
+                                    the required output folder creation.</h4>
+                            </div>
+                        </div>
+                        <div class="column right-img">
+                            <img class="body-img" src="images/folders.png" alt="Image-Batch Safety Feature" />
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <h2 class="white-h2">Get <b>Image-Batch</b> today for just $4.99 (USD).</h2>
+            <div id="app-store-link">
+                <div class="filler-white"></div>
+                <a href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank" rel="noopener"><img
+                        class="download" src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg"
+                        alt="Download Image-Batch on the Mac App Store" /></a>
+            </div>
+            <div id="btm-links">
+                <a href="https://www.youtube.com/@image-batch" target="_blank" rel="noopener">Video Tutorial</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </footer>
+    </body>
 </html>
