@@ -519,6 +519,9 @@ p {
 }
 
 @media screen and (max-width:770px) {
+    .footer {
+        height: 350px;
+    }
     #form { 
         height: 820px;
     }
