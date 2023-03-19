@@ -364,8 +364,16 @@ h4 {
     padding-left: 0;
     padding-right: 0;
     border-radius: 30px;
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 80px;
+}
+
+#content-container-privacy {
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 170px;
+    margin-bottom: 80px;
+    max-width: 95%;
 }
 
 .feature-text {
@@ -421,6 +429,8 @@ h4 {
 }
 
 .privacy-body {
+    max-width: 1000px;
+    margin: 0 auto;
     font-family: 'Helvetica', sans-serif;
     text-align: left;
 }
