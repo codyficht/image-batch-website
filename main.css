@@ -7,6 +7,21 @@ main {
     display: block;
 }
 
+.medium-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.medium-width h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#down-arrow {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
 .filler-white {
     display:none;
     background-color: #f1f1f1;
@@ -328,7 +343,7 @@ h4 {
 
 .file-types {
     padding: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .section-h4 {
@@ -339,7 +354,7 @@ h4 {
 #content-container {
     padding: 20px;
     border-radius: 30px;
-    margin-top: 120px;
+    margin-top: 60px;
     margin-bottom: 160px;
 }
 
@@ -441,6 +456,7 @@ p {
 
     #content-container {
         margin-top: 0;
+        padding-top: 0;
     }
 
     #content-container-form {
@@ -482,7 +498,15 @@ p {
 
 @media screen and (max-width:1000px) {
 
-    
+    .medium-width {
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .medium-width h3 {
+        padding-top: 0;
+        margin-top: 0;
+    }
     .row {
         flex-direction: column;
     }
@@ -519,6 +543,18 @@ p {
 }
 
 @media screen and (max-width:770px) {
+
+    .medium-width {
+        margin-top: 180px;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .medium-width h3 {
+        margin-top: 130px;
+
+    }
+
     .footer {
         height: 350px;
     }
@@ -638,6 +674,11 @@ p {
 }
 
 @media screen and (max-width:600px) {
+    .medium-width {
+        margin-top: 200px;
+
+    }
+
     #btm-links {
         font-size: 0.9em;
         margin-top:64px;
