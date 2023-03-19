@@ -103,7 +103,7 @@ h4 {
 #top-links a {
     text-decoration: none;
 
-    color: whitesmoke;
+    color: white;
     margin-right: 30px;
     transition-duration: 0.2s;
 }
@@ -373,7 +373,7 @@ h4 {
     font-size: 1.8em;
     font-weight: 400;
     padding-top: 40px;
-    color: whitesmoke;
+    color: white;
     max-width: 90%;
     margin: 0 auto;
     min-height: 66px;
@@ -382,7 +382,7 @@ h4 {
 .white-h4 {
     font-size: 1.2em;
     font-weight: 400;
-    color: whitesmoke;
+    color: white;
 }
 
 #btm-links {
@@ -397,7 +397,7 @@ h4 {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
 }
 
 .privacy-title {
