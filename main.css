@@ -19,6 +19,7 @@ main {
 
 #down-arrow {
     animation: MoveUpDownBasic 2s ease-in-out .1s infinite;
+    height: auto;
     width: 100px;
     margin-bottom: 20px;
 }
@@ -220,6 +221,7 @@ h4 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
     width: 470px;
 }
 
@@ -242,6 +244,7 @@ h4 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
     width: 400px;
 }
 
@@ -252,6 +255,7 @@ h4 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
     width: 400px;
 }
 
@@ -262,6 +266,7 @@ h4 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
     width: 400px;
 }
 
@@ -334,7 +339,7 @@ h4 {
 }
 
 .body-img {
-    
+    height: auto;
     width: 600px;
 }
 
