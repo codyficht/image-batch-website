@@ -565,14 +565,6 @@ p {
 }
 
 @media screen and (max-width:770px) {
-    .body-img {
-        display: none;
-    }
-
-    .body-img-sm {
-        display: block;
-    }
-
     .medium-width {
         margin-top: 180px;
         font-size: 0.7em;
@@ -704,6 +696,15 @@ p {
 }
 
 @media screen and (max-width:600px) {
+
+    .body-img {
+        display: none;
+    }
+
+    .body-img-sm {
+        display: block;
+    }
+    
     .medium-width {
         margin-top: 200px;
 
