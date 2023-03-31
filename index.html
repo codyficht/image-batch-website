@@ -17,6 +17,22 @@
             gtag('js', new Date());
             gtag('config', 'G-R4EKDRJGFS');
         </script>
+        <!-- Event snippet for App store button click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+            function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-11123462689/t_AbCJHjspUYEKGkirgp',
+                'event_callback': callback
+            });
+            return false;
+            }
+        </script>
         <!-- Favicon -->
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Apple Touch Icons -->
@@ -63,7 +79,7 @@
                 </div>
                 <div id="app-store-link">
                     <div class="filler"></div>
-                    <a href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank"
+                    <a onclick="return gtag_report_conversion('https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12');" href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank"
                         rel="noopener"><img class="download"
                             src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"
                             alt="Get Image-Batch on the Mac App Store" width="160" height="40"/></a>
@@ -276,7 +292,7 @@
             <h2 class="white-h2">Limited time offer: Grab <b>Image-Batch</b> today for just $2.99 (USD), down from $4.99!</h2>
             <div id="app-store-link">
                 <div class="filler-white"></div>
-                <a href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank" rel="noopener"><img
+                <a onclick="return gtag_report_conversion('https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12');" href="https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12" target="_blank" rel="noopener"><img
                         class="download" src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg"
                         alt="Download Image-Batch on the Mac App Store" width="160" height="40"/></a>
             </div>
