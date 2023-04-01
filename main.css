@@ -12,6 +12,17 @@ main {
     margin: 0 auto;
 }
 
+.thanks {
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.thanks-heading {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
 .medium-width h3 {
     font-size: 1.5em;
     font-weight: 600;
