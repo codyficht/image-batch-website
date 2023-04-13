@@ -754,6 +754,10 @@ p {
         font-size: 1.8em;
     }
 
+    h2 {
+        font-size: 1.9em;
+    }
+
     #header-background-sm {
         display: none;
     }
