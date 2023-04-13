@@ -70,14 +70,14 @@ h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     font-size: 2.5em;
-    color: #1c1c1c;
+    color: black;
 }
 
 .section-head {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     font-size: 1.9em;
-    color: #1c1c1c;
+    color: black;
 }
 
 .dark-banner {
@@ -94,14 +94,14 @@ h2 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     font-size: 2.5em;
-    color: #1c1c1c;
+    color: black;
 }
 
 h3 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 500;
     font-size: 1.1em;
-    color: #1c1c1c;
+    color: black;
 }
 
 .white-h3 {
@@ -112,7 +112,7 @@ h4 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     font-size: 2em;
-    color: #1c1c1c;
+    color: black;
 }
 
 #top-links {
@@ -469,7 +469,7 @@ p {
 
 #header-title a {
     text-decoration: none;
-    color: #1c1c1c;
+    color: black;
 }
 
 @media screen and (max-width:1200px) {
