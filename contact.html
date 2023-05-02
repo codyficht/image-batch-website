@@ -54,10 +54,10 @@
             </div>
             <div id="app-store-link">
                 <div class="filler"></div>
-                <a href="thanks.html" rel="noopener" onclick="window.open('https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12')">
-                    <img
-                        class="download" src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-                        alt="Download Image-Batch on the Mac App Store" width="160" height="40"/></a>
+                <a href="#" rel="noopener" onclick="openAppStore(event)" class="mac-app-store-button">
+                    Purchase on the Mac App Store
+                </a>                      
+                <p class="mac-requirement">Requires macOS 12.0 or later.</p>
             </div>
         </header>
         <main>
@@ -90,10 +90,10 @@
         <h2 class="white-h2"><strong>Unleash</strong> your Mac's bulk image editing power. 🚀 <strong><em style="color: #FF7F50;">Get Image-Batch today!</em></strong></h2>
         <div id="app-store-link">
             <div class="filler-white"></div>
-            <a href="thanks.html" rel="noopener" onclick="window.open('https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12')">
-                <img
-                    class="download" src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg"
-                    alt="Download Image-Batch on the Mac App Store" width="160" height="40"/></a>
+            <a href="thanks.html" rel="noopener" onclick="window.open('https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12')" class="mac-app-store-button light-version">
+                Purchase on the Mac App Store
+              </a>
+              <p class="mac-requirement light-version">Requires macOS 12.0 or later.</p>                  
         </div>
         <div id="btm-links">
             <a href="https://www.youtube.com/@image-batch" target="_blank" rel="noopener">Video Tutorial</a>
@@ -101,6 +101,21 @@
             <a href="contact.html">Contact Us</a>
         </div>
     </footer>
+    <script>
+        function openAppStore(event) {
+          event.preventDefault();
+          
+          var macAppStoreURL = 'https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12';
+          var thanksURL = 'thanks.html';
+          
+          if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+            window.open(macAppStoreURL);
+            window.location.href = thanksURL;
+          } else {
+            window.open(macAppStoreURL, '_blank');
+          }
+        }
+      </script>
 </body>
 
 </html>
