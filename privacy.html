@@ -93,17 +93,17 @@
     </footer>
     <script>
         function openAppStore(event) {
-          event.preventDefault();
+            event.preventDefault();
           
-          var macAppStoreURL = 'https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12';
-          var thanksURL = 'thanks.html';
+            var macAppStoreURL = 'https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12';
+            var thanksURL = 'thanks.html';
           
-        //  if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
-            window.open(macAppStoreURL);
-            window.location.href = thanksURL;
-        //  } else {
-        //    window.open(macAppStoreURL, '_blank');
-        //  }
+            if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+                window.open(macAppStoreURL);
+                window.location.href = thanksURL;
+            } else {
+            window.open(macAppStoreURL, '_blank');
+            }
         }
     </script>
 </body>
