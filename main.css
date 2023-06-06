@@ -506,6 +506,16 @@ p {
     color: black;
 }
 
+@keyframes shiny-green {
+    0% {background-position: -200%;}
+    100% {background-position: 200%;}
+}
+.shiny {
+    animation: shiny-green 6s linear infinite;
+    background: linear-gradient(90deg, transparent, #f8f543, transparent);
+    background-size: 200%;
+}
+
 @media screen and (max-width:1200px) {
     #header-background-lg {
         display: none;
