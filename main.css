@@ -27,6 +27,8 @@ main {
 }
 
 
+
+
 .light-version.mac-app-store-button {
     box-shadow: 2px 2px 10px black;
 }
@@ -162,18 +164,53 @@ h4 {
     padding-bottom: 10px;
     font-family: 'Helvetica', sans-serif;
     font-size: 0.8em;
+    transition: 0.5s;
 }
 
 #top-links a {
     text-decoration: none;
-
     color: white;
     margin-right: 30px;
     transition-duration: 0.2s;
+    display: inline-block;
 }
 
-#top-links a:hover {
-   
+.hamburger {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    z-index: 100; /* Make it appear on top */
+    background-color: #131313;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.hamburger div {
+    width: 40px;
+    height: 5px;
+    background-color: #f5f5f5;
+    margin: 6px auto;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+/* Create the hamburger into X transformation */
+.change .line1 {
+    transform: rotate(-45deg) translate(-7px, 8px);
+}
+.change .line2 {
+    opacity: 0;
+}
+.change .line3 {
+    transform: rotate(45deg) translate(-7px, -8px);
+}
+
+.mobile-only {
+    display: none !important;  /* Hide by default */
 }
 
 #header-background-lg {
@@ -635,13 +672,17 @@ p {
         width: 100%;
     }
 
+    .mobile-only {
+        display: block !important;  /* Display for mobile screens */
+    }
+
     .medium-width h3 {
         margin-top: 130px;
 
     }
 
     .footer {
-        height: 350px;
+        height: 280px;
     }
     #form { 
         height: 820px;
@@ -722,17 +763,40 @@ p {
         top: -0px;
         width: 300px;
     }
-    #top-links {
-        text-align: center;
-        font-size: 0.9em;
-    }
-    #top-links a {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+
     #wrap {
         min-width: 300px;
         width: 90%;
+    }
+
+    #top-links {
+        position: fixed;
+        text-align: center;
+        padding-top: 80px;
+        left: -100%;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #top-links a {
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 1.1em;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-open {
+        left: 0 !important;
     }
 
 
@@ -745,6 +809,7 @@ p {
     }
 
     #btm-links {
+        display: none;
         font-size: 0.9em;
         margin-top:120px;
     }
