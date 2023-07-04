@@ -203,7 +203,7 @@ h4 {
     transform: rotate(-45deg) translate(-7px, 8px);
 }
 .change .line2 {
-    opacity: 0;
+    transform: rotate(-45deg);
 }
 .change .line3 {
     transform: rotate(45deg) translate(-7px, -8px);
