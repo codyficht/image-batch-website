@@ -718,7 +718,8 @@ p {
 
     #top-container {
         flex-direction: column;
-        height: 580px;
+        height: 500px;
+       padding-bottom: 50px;
     }
     #content-container {
         margin-top: 140px;
