@@ -96,7 +96,7 @@ main {
 }
 
 body {
-    background: linear-gradient(160deg, rgb(119, 219, 255) 80px, rgb(156, 228, 255) 250px, white 600px);
+    background: linear-gradient(165deg, rgb(119, 219, 255) 100px, rgb(156, 228, 255) 280px, white 620px);
     /* Ensure the background covers the entire page */
     min-height: 100vh;
     margin: 0;
@@ -288,7 +288,7 @@ h4 {
 
 #main-image {
     position: relative;
-    margin-top: 160px;
+    margin-top: 130px;
     width: 50%;
     text-align: center;
 }
@@ -362,7 +362,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    height: 600px;
+    height: 570px;
 }
 
 #wrap {
@@ -375,7 +375,7 @@ h4 {
 }
 
 #banner-1 {
-    margin-top: 340px;
+    margin-top: 240px;
     width: 46%;
 }
 
@@ -576,7 +576,7 @@ p {
     }
 
     #main-image {
-        margin-top: 180px;
+        margin-top: 150px;
     }
 
     #content-container {
@@ -604,7 +604,7 @@ p {
         font-size: 2.1em;
     }
     #banner-1 {
-        margin-top: 280px
+        margin-top: 200px
     }
     
 
@@ -670,6 +670,10 @@ p {
 }
 
 @media screen and (max-width:770px) {
+    body {
+        background: linear-gradient(160deg, rgb(119, 219, 255) 80px, rgb(156, 228, 255) 250px, white 600px);
+    }
+
     .medium-width {
         margin-top: 180px;
         font-size: 0.7em;
@@ -749,7 +753,7 @@ p {
         margin-top: 6px;
     }
     #banner-1 {
-        margin-top: 60px;
+        margin-top: 40px;
         width: 100%;
         margin:  0 auto;
         max-width: 500px;
@@ -868,7 +872,7 @@ p {
     }
 
     #banner-1 {
-        margin-top: 20px
+        margin-top: 0px
     }
 
     #header-background-sm {
