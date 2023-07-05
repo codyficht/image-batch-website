@@ -96,8 +96,11 @@ main {
 }
 
 body {
+    background: linear-gradient(160deg, rgb(119, 219, 255), white 600px);
+    /* Ensure the background covers the entire page */
+    min-height: 100vh;
     margin: 0;
-    background-color: #fafafa;
+    padding: 0;
 }
 
 html {
