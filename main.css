@@ -96,7 +96,7 @@ main {
 }
 
 body {
-    background: linear-gradient(160deg, rgb(119, 219, 255), white 600px);
+    background: linear-gradient(160deg, rgb(119, 219, 255) 80px, rgb(156, 228, 255) 250px, white 600px);
     /* Ensure the background covers the entire page */
     min-height: 100vh;
     margin: 0;
@@ -186,7 +186,7 @@ h4 {
     top: 20px;
     z-index: 100; /* Make it appear on top */
     background-color: #1f1f1f;
-    opacity: 90%;
+    opacity: 96%;
     width: 50px;
     height: 40px;
     border-radius: 5px;
@@ -714,6 +714,7 @@ p {
 
     #top-container {
         flex-direction: column;
+        height: 580px;
     }
     #content-container {
         margin-top: 140px;
@@ -735,7 +736,7 @@ p {
         font-size: 0.9em;
     }
     #header-container {
-        margin-top: 90px;
+        margin-top: 70px;
         width: 100%;
         display: flex;
         justify-content: center;
