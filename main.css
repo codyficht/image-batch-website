@@ -566,6 +566,19 @@ p {
     animation: spin 12s linear infinite;
 }
 
+@keyframes shake {
+    0% {transform: translate(0px, 0px) rotate(0deg);}
+    25% {transform: translate(-2px, 0px) rotate(-7deg);}
+    50% {transform: translate(1px, 2px) rotate(0deg);}
+    50% {transform: translate(2px, 0px) rotate(-2deg);}
+    75% {transform: translate(0px, 3px) rotate(-5deg);}
+    
+}
+.shake {
+    display: inline-block;
+    animation: shake 2s linear infinite;
+}
+
 @media screen and (max-width:1200px) {
     #header-background-lg {
         display: none;
@@ -690,7 +703,7 @@ p {
     }
 
     .footer {
-        height: 280px;
+        height: 300px;
     }
     #form { 
         height: 820px;
