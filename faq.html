@@ -19,6 +19,8 @@
         content="Get answers to your questions about Image-Batch, the powerful bulk image editing tool for Mac." />
     <link href="main.css" rel="stylesheet" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+
     <!-- ****** faviconit.com favicons ****** -->
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -59,12 +61,17 @@
 
     <div id="top-links">
         <a href="index.html">Home / Features</a>
+        <a href="pricing.html">Pricing</a>
         <a href="videos.html">Videos / Tutorials</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="faq.html" class="highlight">FAQ</a>
+        <a href="updates.html">Updates</a>
         <a href="contact.html">Contact Us</a>
     </div>
     <div id="wrap">
+        <div id="update-banner">
+            <strong>Heads Up!</strong> We've temporarily removed Image-Batch from the app store as we're gearing up for a big update with in-app purchases. Mark your calendar for September 9th! Thanks for your understanding. 😊
+        </div>
         <header>
             <div id="header-container">
                 <a href="index.html">
@@ -105,9 +112,17 @@
 
                     <h4>What's new in Image-Batch 2.0?</h4>
                     <p>Image-Batch 2.0 introduces a major overhaul of the app look, making it even more intuitive and sleek. This version now allows you to edit original images in the selected folder instead of creating a new folder with the edited images. Additionally, you can now simply drag and drop your folder into the app, enhancing the ease of selecting images for editing.</p>
-
                     <h4>How much does Image-Batch cost?</h4>
-                    <p>Image-Batch is regularly priced at 7.99 USD. This is a one-time purchase that gives you access to all current features of Image-Batch. Importantly, your purchase also includes free updates, ensuring you always have access to the latest features and improvements without any additional cost.</p>
+                    <p>Image-Batch now offers multiple pricing tiers to best suit your needs:</p>
+                    
+                    <ul>
+                        <li><strong>Free Version:</strong> Access to basic features of Image-Batch.</li>
+                        <li><strong>Pro Version:</strong> Priced at [4.99 USD]. This tier gives you extended functionality, as indicated by the <i class="fas fa-lock pro"></i> icon on our home/features page.</li>
+                        <li><strong>Premium Version:</strong> Priced at [12.99 USD]. The Premium tier provides our most comprehensive feature set, as highlighted by the <i class="fas fa-lock premium"></i> icon on our home/features page.</li>
+                    </ul>
+                    
+                    <p>Previously, Image-Batch was available as a one-time purchase, which granted access to all its features. Existing customers who made this purchase will continue to have access to all current features and will receive free updates, ensuring they always benefit from the latest improvements without any additional cost.</p>
+                    
 
                     <h4>Where can I get support for Image-Batch?</h4>
                     <p>You can reach out to our support team through the contact form on our website. We're always here to help!</p>
@@ -116,13 +131,19 @@
                     <p>Absolutely! We're always open to user feedback and suggestions. Feel free to contact us through our website's contact form.</p>
 
                     <h4>Can I edit images directly in their original folder, or will Image-Batch create a new folder with edited images?</h4>
-                    <p>Starting with Image-Batch 2.0, you now have the choice. You can opt to directly edit and save changes to images in their original folder. Alternatively, if you want to keep your original images untouched, Image-Batch can create a new folder where it will store the edited images. This gives you full control over your workflow.</p>
+                    <p>With Image-Batch, the ability to edit images directly in their original folder is determined by the purchase tier you choose. If you are on the <strong>Pro</strong> or <strong>Premium</strong> tier, you have the option to directly edit and save changes to images in their original folder using the "Direct Edit Mode". Alternatively, if you want to keep your original images untouched, Image-Batch can create a new folder where it will store the edited images. This gives you full control over your workflow.</p>
 
                     <h4>How does the 'Bulk Reduction' feature work?</h4>
                     <p>Image-Batch's 'Reduce' feature allows you to decrease the file size of your images. For JPEG, HEIF, and WEBP images, the app applies compression to achieve the size reduction. If maximum compression isn't enough to reach your desired reduction, Image-Batch will additionally scale down these image types. For PNG and TIFF images, the app uses size scaling only. Please note that reducing the file size may affect image quality, so it's always a good idea to test the results to ensure they meet your expectations.</p>
 
                     <h4>What is the maximum amount of images that Image-Batch can handle at once?</h4>
-                    <p>Image-Batch is designed to handle a large number of images efficiently. While there isn't a specified maximum limit, it has been successfully tested with over 500 JPEG images with dimensions above 2000px processed at once. Performance can vary based on factors such as image size, your Mac's specifications, and the specific editing tasks you're performing.</p>
+                    <p>Image-Batch offers different processing capabilities based on your chosen purchase tier:</p>
+                    <ul>
+                        <li><strong>Lite Version:</strong> You can process up to 3 images at once.</li>
+                        <li><strong>Pro Upgrade:</strong> Allows for processing of up to 20 images at once.</li>
+                        <li><strong>Premium Upgrade:</strong> Offers unlimited image processing capabilities.</li>
+                    </ul>
+                    <p>Independent of the tier, Image-Batch is designed to handle a large number of images efficiently. While there isn't a strict maximum limit for the Premium tier, the application has been successfully tested with over 500 JPEG images with dimensions above 2000px processed at once. Performance can vary based on factors such as image size, your Mac's specifications, and the specific editing tasks you're performing.</p>
 
                     <h4>How does Image-Batch handle folder selection and sub-folders?</h4>
                     <p>When you select a folder for editing in Image-Batch, the app will only process the image files directly in the selected folder. If there are any sub-folders inside your chosen folder, Image-Batch will not access or modify the images within these sub-folders. It's designed this way to provide you precise control over which images are being edited.</p>
@@ -143,7 +164,7 @@
         </main>
     </div>
     <footer class="footer">
-        <h2 class="white-h2">Take your bulk image editing to the next level with <strong>Image-Batch 2.0</strong>. <span class="shake">🚀</span> <strong><em style="color: #50ff50;">Get started today for just 7.99 USD!</em></strong></h2>
+        <h2 class="white-h2">Elevate your bulk image editing game with <strong>Image-Batch</strong>! <span class="shake">🚀</span> <strong><em style="color: #50ff50;">Jump in and explore for FREE today!</em></strong></h2>
         <div id="app-store-link">
             <div class="filler-white"></div>
             <a href="#" rel="noopener" onclick="openAppStore(event)">
@@ -156,9 +177,11 @@
         </div>
         <div id="btm-links">
             <a href="index.html">Home / Features</a>
+            <a href="pricing.html">Pricing</a>
             <a href="videos.html">Videos / Tutorials</a>
             <a href="privacy.html">Privacy Policy</a>
             <a href="faq.html" class="highlight">FAQ</a>
+            <a href="updates.html">Updates</a>
             <a href="contact.html">Contact Us</a>
         </div>
     </footer>

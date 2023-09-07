@@ -26,8 +26,74 @@ main {
     margin-top: 5px;
 }
 
+#update-banner {
+    font-family: 'Helvetica', sans-serif;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(232, 209, 1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.premium {
+    color: rgb(231, 204, 0)
+}
+
+.pro {
+    color: rgb(0, 194, 0)
+}
+
+.upgrade-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.upgrade-img-sm {
+    display: none;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.upgrade-reminder {
+    background: linear-gradient(65deg, #b4fab5, #d8ffd0); /* From #b4fab5 to a lighter green #d8ffd0 */
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px dashed #25c01a;
+}
 
 
+
+.feature-legend {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between; /* This will make sure the two child divs have some space between them. */
+    align-items: center; /* This ensures they are aligned vertically in the center. */
+}
+
+.feature-legend > div {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    background-color: #f7f7f7;
+}
+
+.legend-text {
+    font-size: 20px;
+}
 
 .light-version.mac-app-store-button {
     box-shadow: 2px 2px 10px black;
@@ -470,7 +536,7 @@ iframe {
 }
 
 .section-head {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .file-types {
@@ -677,6 +743,7 @@ p {
 
 @media screen and (max-width:1000px) {
 
+
     .medium-width {
         font-size: 0.8em;
         width: 100%;
@@ -731,6 +798,30 @@ p {
         background: linear-gradient(160deg, rgb(119, 219, 255) 80px, rgb(156, 228, 255) 250px, white 600px);
     }
 
+    .feature-legend {
+        flex-direction: column;
+    }
+
+    .feature-legend > div {
+        padding: 0px 10px;
+    }
+
+    #update-banner {
+        margin-top:50px;
+    }
+
+    .upgrade-img {
+        display: none;
+    }
+    
+    .upgrade-img-sm {
+        display: block;
+    }
+
+    .legend-text {
+        font-size: 16px;
+    }
+    
     .medium-width {
         margin-top: 180px;
         font-size: 0.7em;
@@ -1040,7 +1131,7 @@ p {
 
 @keyframes MoveUpDownBasic {
     0%, 100% {
-        transform: translateY(0);
+        transform: translateY(12px);
       }
       50% {
         transform: translateY(-12px);

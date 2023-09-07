@@ -19,6 +19,10 @@
             gtag('config', 'G-R4EKDRJGFS');
             gtag('config', 'AW-11123462689');
         </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Apple Touch Icons -->
@@ -74,12 +78,18 @@
 
         <div id="top-links">
             <a href="index.html" class="highlight">Home / Features</a>
+            <a href="pricing.html">Pricing</a>
             <a href="videos.html">Videos / Tutorials</a>
             <a href="privacy.html">Privacy Policy</a>
             <a href="faq.html">FAQ</a>
+            <a href="updates.html">Updates</a>
             <a href="contact.html">Contact Us</a>
         </div>
+        
         <div id="wrap">
+            <div id="update-banner">
+                <strong>Heads Up!</strong> We've temporarily removed Image-Batch from the app store as we're gearing up for a big update with in-app purchases. Mark your calendar for September 9th! Thanks for your understanding. 😊
+            </div>
             <header>
                 <div id="header-container">
                     <a href="index.html">
@@ -106,11 +116,11 @@
                     <div id="banner-1">
                         <h2>
                             <span class="shake">✨</span>
-                            <span class="shiny" style="background-color: #2ECC71; padding: 0px 5px; white-space: nowrap; box-shadow: 2px 2px 2px rgba(0,0,0,0.1); border-radius: 5px;"><em>Major Upgrade</em></span> 
-                            Experience v2.0 today! More bulk editing features with a sleek, improved interface:
-                            <span style="color: white; background-color: #FF7F50; padding: 0px 4px; white-space: nowrap; box-shadow: 3px 3px 5px rgba(0,0,0,0.1); border-radius: 5px;">
-                            Only 7.99 USD!</span>
-                            </h2>                           
+                            <span class="shiny" style="background-color: #2ECC71; padding: 0px 5px; white-space: nowrap; box-shadow: 2px 2px 2px rgba(0,0,0,0.1); border-radius: 5px;"><em>Exciting News:</em></span>
+                            Dive into Image-Batch with our new <span style="color: white; background-color: #FF7F50; padding: 0px 4px; white-space: nowrap; box-shadow: 3px 3px 5px rgba(0,0,0,0.1); border-radius: 5px;">FREE LITE version!</span> Download Today!
+                        </h2>
+                        
+                                                  
                     </div>
                     <div id="main-image">
                         <img id="base" src="images/hider.webp" alt="Image-Batch Logo Hider" width="1024" height="1024"/>
@@ -133,6 +143,15 @@
                     <div class="section-head">
                         <h2 class="section-head">Easy-to-Use Features for Bulk Image Editing on MacOS</h2>
                     </div>
+                    <div class="feature-legend">
+                        <div class="">
+                            <h2 class="legend-text"><strong><i class="fas fa-lock pro"></i> <span class="legend-text">Requires a Pro upgrade</span></strong></h2>
+                        </div>
+                        <div class="">
+                            <h2 class="legend-text"><strong><i class="fas fa-lock premium"></i> <span class="legend-text">Requires a Premium upgrade</span></strong></h2>
+                        </div>
+                    </div>
+                    
                     <div class="row">
                         <div class="column left-img">
                             <img class="body-img" src="images/Resize.webp" alt="Image-Batch Resize Feature" width="1582" height="1724"/>
@@ -170,7 +189,7 @@
                         </div>
                         <div class="column left">
                             <div>
-                                <h2 class="feature-title">Reduce by File Size</h2>
+                                <h2 class="feature-title">Reduce by File Size <i class="fas fa-lock premium"></i></h2>
                                 <h4 class="feature-text">Shrink the file size of a batch of images via compression or scaling by specifying a desired
                                     maximum file size.</h4>
                             </div>
@@ -209,8 +228,7 @@
                         <div class="column right">
                             <div>
                                 <h2 class="feature-title">Watermark</h2>
-                                <h4 class="feature-text">Apply a watermark to a batch of images by selecting a watermark image
-                                    and its position(s).</h4>
+                                <h4 class="feature-text">Apply a watermark to a batch of images by selecting a watermark image. <span class="premium-feature">Selecting custom watermark positions <i class="fas fa-lock pro"></i> <i class="fas fa-lock premium"></i> requires a Pro or Premium upgrade.</span></h4>
                             </div>
                         </div>
                         <div class="column right-img">
@@ -238,9 +256,9 @@
                         <div class="column right">
                             <div>
                                 <h2 class="feature-title">Crop by Aspect Ratio</h2>
-                                <h4 class="feature-text">Crop a batch of images by selecting a crop position and inputting a specific aspect ratio.</h4>
+                                <h4 class="feature-text">Crop a batch of images by inputting a specific aspect ratio. <span class="premium-feature">Selecting a custom crop position <i class="fas fa-lock pro"></i> <i class="fas fa-lock premium"></i> requires a Pro or Premium upgrade.</span></h4>
                             </div>
-                        </div>
+                        </div>                        
                         <div class="column right-img">
                             <img class="body-img" src="images/crop_aspect.webp"
                                 alt="Image-Batch Crop by Aspect Ratio Feature" width="1582" height="1724"/>
@@ -258,7 +276,7 @@
                         </div>
                         <div class="column left">
                             <div>
-                                <h2 class="feature-title">Crop by Size</h2>
+                                <h2 class="feature-title">Crop by Size <i class="fas fa-lock premium"></i></h2>
                                 <h4 class="feature-text">Crop a batch of images by selecting a crop position and inputting desired pixel dimensions.</h4>
                             </div>
                         </div>
@@ -296,8 +314,7 @@
                         <div class="column right">
                             <div>
                                 <h2 class="feature-title">Safety</h2>
-                                <h4 class="feature-text">Choose to edit your original images or prevent an accidental overwrite with
-                                    output folder creation.</h4>
+                                <h4 class="feature-text">Prevent an accidental overwrite with output folder creation. <span class="premium-feature">Direct editing of original images <i class="fas fa-lock pro"></i> <i class="fas fa-lock premium"></i> requires a Pro or Premium upgrade.</span></h4>
                             </div>
                         </div>
                         <div class="column right-img">
@@ -311,7 +328,7 @@
             </main>
         </div>
         <footer class="footer">
-            <h2 class="white-h2">Take your bulk image editing to the next level with <strong>Image-Batch 2.0</strong>. <span class="shake">🚀</span> <strong><em style="color: #50ff50;">Get started today for just 7.99 USD!</em></strong></h2>
+            <h2 class="white-h2">Elevate your bulk image editing game with <strong>Image-Batch</strong>! <span class="shake">🚀</span> <strong><em style="color: #50ff50;">Jump in and explore for FREE today!</em></strong></h2>
             <div id="app-store-link">
                 <a href="#" rel="noopener" onclick="openAppStore(event)">
                     <img src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg" class="mac-app-store-button light-version">
@@ -324,9 +341,11 @@
             </div>
             <div id="btm-links">
                 <a href="index.html" class="highlight">Home / Features</a>
+                <a href="pricing.html">Pricing</a>
                 <a href="videos.html">Videos / Tutorials</a>
                 <a href="privacy.html">Privacy Policy</a>
                 <a href="faq.html">FAQ</a>
+                <a href="updates.html">Updates</a>
                 <a href="contact.html">Contact Us</a>
             </div>
         </footer>
