@@ -7,6 +7,10 @@ main {
     display: block;
 }
 
+#update-banner {
+    display: none;
+}
+
 .mac-app-store-button {
     border-radius: 6px;
     cursor: pointer;
