@@ -1011,13 +1011,13 @@ p {
 
 @media screen and (max-width:600px) {
 
-    .body-img {
+    /* .body-img {
         display: none;
     }
 
     .body-img-sm {
         display: block;
-    }
+    } */
 
     .mac-requirement {
         font-size: 12px;
