@@ -270,16 +270,17 @@ iframe {
 
 #top-links {
     z-index: 99;
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: #1f1f1f;
-    opacity: 98%;
+    opacity: 95%;
     text-align: right;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Helvetica', sans-serif;
     font-size: 0.8em;
     transition: 0.5s;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 #top-links a {
