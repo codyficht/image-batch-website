@@ -502,7 +502,8 @@ iframe {
 }
 
 #banner-1 .banner-1-tagline-sub {
-    color: rgba(47, 47, 47, 0.72);
+    color: rgba(22, 22, 22, 0.72);
+    font-weight: 400;
 }
 
 #banner-1 .banner-1-tagline-icon {
