@@ -144,8 +144,8 @@ main {
 #down-arrow {
     animation: MoveUpDownBasic 2s ease-in-out .1s infinite;
     height: auto;
-    width: 100px;
-    margin-bottom: 20px;
+    margin-top: 28px;
+    margin-bottom: 30px;
 }
 
 .filler-white {
