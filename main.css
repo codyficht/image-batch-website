@@ -144,8 +144,7 @@ main {
 #down-arrow {
     animation: MoveUpDownBasic 2s ease-in-out .1s infinite;
     height: auto;
-    margin-top: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .filler-white {
@@ -501,9 +500,8 @@ iframe {
     width: 46%;
 }
 
-#banner-1 .banner-1-tagline-sub {
+#banner-1 #banner-1-tagline-sub {
     color: rgba(10, 10, 10, 0.72);
-    font-size: 0.75em;
 }
 
 #banner-1 .banner-1-tagline-icon {
