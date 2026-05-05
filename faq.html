@@ -87,95 +87,155 @@
                     <h2>Frequently Asked Questions</h2>
                 </div>
                 <div class="privacy-body">
-                    <h4>What is Image-Batch?</h4>
-                    <p>Image-Batch is a powerful Mac app designed for bulk image editing. With it, you can resize, crop,
-                        compress, convert, watermark, rename, and find duplicate images with ease.</p>
-                    <h4>How does Image-Batch work?</h4>
-                    <p>You simply select a folder of images you want to process, choose from Image-Batch's seven
-                        versatile features, adjust the options according to your needs, and the app does the rest for
-                        you.</p>
-                    <h4>What types of image formats does Image-Batch support?</h4>
-                    <p>Image-Batch supports a wide range of formats including WEBP, JPEG/JPG, PNG, HEIF/HEIC, and TIFF.
-                    </p>
-                    <h4>How much does Image-Batch cost?</h4>
-                    <p>Image-Batch offers flexible pricing tiers to suit your needs:</p>
-                    <ul>
-                        <li><strong>Free Version (Lite):</strong> Access to core features with a limit of 3 images per
-                            batch.</li>
-                        <li><strong>Pro Version ($11.99 one-time):</strong> Extended functionality for heavier use — up
-                            to 40 images per batch, custom output folders, Direct Edit Mode, extended formats (PNG,
-                            HEIF, TIFF), custom crop & watermark positioning, and more.</li>
-                        <li><strong>Premium Version ($24.99 one-time):</strong> The complete professional toolkit —
-                            unlimited images, reduce to exact file size, precision crop by pixels, largest-side resize,
-                            AVIF & WEBP conversion, full rotate & flip, and everything in Pro.</li>
-                    </ul>
-                    <p>Previously, Image-Batch was available as a one-time purchase for all features. Existing customers
-                        who made that purchase continue to have lifetime access to everything plus free updates.</p>
-                    <h4>I previously purchased Image-Batch at a one-time price. Why am I not seeing the Premium version
-                        after updating?</h4>
-                    <p>Users who previously purchased Image-Batch at a one-time price are automatically upgraded to the
-                        Premium version upon updating. This process may take a few seconds after launching the app for
-                        the first time. If you don't see Premium features activated, click the "Upgrade" button at the
-                        bottom of the app, then select "Restore Purchase."</p>
-                    <h4>Where can I get support for Image-Batch?</h4>
-                    <p>You can reach out to our support team through the contact form on our website. We're always here
-                        to help!</p>
-                    <h4>Can I suggest a new feature for Image-Batch?</h4>
-                    <p>Absolutely! We're always open to user feedback and suggestions. Feel free to contact us through
-                        our website's contact form.</p>
-                    <h4>Can I edit images directly in their original folder, or will Image-Batch create a new folder
-                        with edited images?</h4>
-                    <p>With Image-Batch, you have full control. If you're on the <strong>Pro</strong> or
-                        <strong>Premium</strong>
-                        tier, you can use "Direct Edit Mode" to save changes directly to the original folder (when using
-                        folder selection). If you prefer to keep originals untouched, Image-Batch creates a new output
-                        folder for edited images.</p>
-                    <h4>How does the 'Bulk Reduction' feature work?</h4>
-                    <p>Image-Batch's 'Reduce' feature decreases file size through compression (for JPEG, HEIF, WEBP) or
-                        scaling (for all formats). For maximum reduction, the app may apply both. Note that heavy
-                        compression can affect image quality — always test results for your use case.</p>
-                    <h4>What is the maximum amount of images that Image-Batch can handle at once?</h4>
-                    <p>Image-Batch offers different processing capabilities based on your tier:</p>
-                    <ul>
-                        <li><strong>Lite Version:</strong> Up to 3 images at once.</li>
-                        <li><strong>Pro Upgrade:</strong> Up to 40 images at once.</li>
-                        <li><strong>Premium Upgrade:</strong> Unlimited image processing (tested with 500+ images).</li>
-                    </ul>
-                    <p>Performance depends on image size, your Mac's specs, and the specific edits being performed.</p>
-                    <h4>How does Image-Batch handle folder selection and sub-folders?</h4>
-                    <p>When you select a folder, Image-Batch only processes image files directly in that folder.
-                        Sub-folders are not accessed or modified — giving you precise control over which images are
-                        edited.</p>
-                    <h4>How do I edit a batch of photos from the Apple Photos app?</h4>
-                    <p>Create a new folder on your Mac, drag the photos from Apple Photos into it, then select that
-                        folder in Image-Batch. After editing, you can drag the output images back into Apple Photos if
-                        desired.</p>
-                    <h4>Can I perform multiple operations like bulk resizing and renaming at the same time?</h4>
-                    <p>Image-Batch performs one operation at a time for precision and safety. After completing one
-                        process (e.g., resizing), you can immediately run the next (e.g., renaming) on the same or new
-                        batch.</p>
-                    <h4>On which operating systems is Image-Batch available?</h4>
-                    <p>Image-Batch is exclusively available for macOS 15.0 and higher. We do not currently offer
-                        versions for other operating systems.</p>
-                    <h4>Why aren't some images in my selected folder being edited?</h4>
-                    <p>Images not fully downloaded from iCloud cannot be edited. Check each image in the folder and
-                        click the cloud icon to download it before starting your batch edit.</p>
-                    <h4>What is the Preferred File Extensions setting?</h4>
-                    <p>This setting lets you choose whether Image-Batch uses Apple's preferred extensions (e.g., .jpeg
-                        instead of .jpg). Toggle it in Settings to maintain consistent file naming across your library.
-                    </p>
-                    <h4>What is the Default Export Compression Quality setting?</h4>
-                    <p>This controls the default compression level for JPEG, WebP, HEIF, and AVIF exports. You can set
-                        your preferred quality in Settings — it applies automatically to all compressible formats.
-                        Individual Convert operations can override this with their own slider.</p>
-                    <h4>Why does processing AVIF files take longer?</h4>
-                    <p>AVIF uses advanced compression that delivers superior quality at smaller file sizes, but it
-                        requires more processing power. Please be patient when working with AVIF files — the results are
-                        worth it!</p>
-                    <h4>What is Largest Side Resizing?</h4>
-                    <p>Largest Side Resizing (Premium only) automatically detects the longest dimension of each image
-                        and resizes that side to your specified value while preserving aspect ratio. Perfect for fitting
-                        images into specific size requirements regardless of orientation.</p>
+                    <details>
+                        <summary>What is Image-Batch?</summary>
+                        <p>Image-Batch is a powerful Mac app designed for bulk image editing. With it, you can resize,
+                            crop, compress, convert, watermark, rename, and find duplicate images with ease.</p>
+                    </details>
+
+                    <details>
+                        <summary>How does Image-Batch work?</summary>
+                        <p>You simply select a folder of images you want to process, choose from Image-Batch's seven
+                            versatile features, adjust the options according to your needs, and the app does the rest
+                            for you.</p>
+                    </details>
+
+                    <details>
+                        <summary>What types of image formats does Image-Batch support?</summary>
+                        <p>Image-Batch supports a wide range of formats including WEBP, JPEG/JPG, PNG, HEIF/HEIC, and
+                            TIFF.</p>
+                    </details>
+
+                    <details>
+                        <summary>How much does Image-Batch cost?</summary>
+                        <p>Image-Batch offers flexible pricing tiers to suit your needs:</p>
+                        <ul>
+                            <li><strong>Free Version (Lite):</strong> Access to core features with a limit of 3 images
+                                per batch.</li>
+                            <li><strong>Pro Version ($11.99 one-time):</strong> Extended functionality for heavier use —
+                                up to 40 images per batch, custom output folders, Direct Edit Mode, extended formats
+                                (PNG, HEIF, TIFF), custom crop & watermark positioning, and more.</li>
+                            <li><strong>Premium Version ($24.99 one-time):</strong> The complete professional toolkit —
+                                unlimited images, reduce to exact file size, precision crop by pixels, largest-side
+                                resize, AVIF & WEBP conversion, full rotate & flip, and everything in Pro.</li>
+                        </ul>
+                        <p>Previously, Image-Batch was available as a one-time purchase for all features. Existing
+                            customers who made that purchase continue to have lifetime access to everything plus free
+                            updates.</p>
+                    </details>
+
+                    <details>
+                        <summary>I previously purchased Image-Batch at a one-time price. Why am I not seeing the Premium
+                            version after updating?</summary>
+                        <p>Users who previously purchased Image-Batch at a one-time price are automatically upgraded to
+                            the Premium version upon updating. This process may take a few seconds after launching the
+                            app for the first time. If you don't see Premium features activated, click the "Upgrade"
+                            button at the bottom of the app, then select "Restore Purchase."</p>
+                    </details>
+
+                    <details>
+                        <summary>Where can I get support for Image-Batch?</summary>
+                        <p>You can reach out to our support team through the contact form on our website. We're always
+                            here to help!</p>
+                    </details>
+
+                    <details>
+                        <summary>Can I suggest a new feature for Image-Batch?</summary>
+                        <p>Absolutely! We're always open to user feedback and suggestions. Feel free to contact us
+                            through our website's contact form.</p>
+                    </details>
+
+                    <details>
+                        <summary>Can I edit images directly in their original folder, or will Image-Batch create a new
+                            folder with edited images?</summary>
+                        <p>With Image-Batch, you have full control. If you're on the <strong>Pro</strong> or
+                            <strong>Premium</strong> tier, you can use "Direct Edit Mode" to save changes directly to
+                            the original folder (when using folder selection). If you prefer to keep originals
+                            untouched, Image-Batch creates a new output folder for edited images.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>How does the 'Bulk Reduction' feature work?</summary>
+                        <p>Image-Batch's 'Reduce' feature decreases file size through compression (for JPEG, HEIF, WEBP)
+                            or scaling (for all formats). For maximum reduction, the app may apply both. Note that heavy
+                            compression can affect image quality — always test results for your use case.</p>
+                    </details>
+
+                    <details>
+                        <summary>What is the maximum amount of images that Image-Batch can handle at once?</summary>
+                        <p>Image-Batch offers different processing capabilities based on your tier:</p>
+                        <ul>
+                            <li><strong>Lite Version:</strong> Up to 3 images at once.</li>
+                            <li><strong>Pro Upgrade:</strong> Up to 40 images at once.</li>
+                            <li><strong>Premium Upgrade:</strong> Unlimited image processing (tested with 500+ images).
+                            </li>
+                        </ul>
+                        <p>Performance depends on image size, your Mac's specs, and the specific edits being performed.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>How does Image-Batch handle folder selection and sub-folders?</summary>
+                        <p>When you select a folder, Image-Batch only processes image files directly in that folder.
+                            Sub-folders are not accessed or modified — giving you precise control over which images are
+                            edited.</p>
+                    </details>
+
+                    <details>
+                        <summary>How do I edit a batch of photos from the Apple Photos app?</summary>
+                        <p>Create a new folder on your Mac, drag the photos from Apple Photos into it, then select that
+                            folder in Image-Batch. After editing, you can drag the output images back into Apple Photos
+                            if desired.</p>
+                    </details>
+
+                    <details>
+                        <summary>Can I perform multiple operations like bulk resizing and renaming at the same time?
+                        </summary>
+                        <p>Image-Batch performs one operation at a time for precision and safety. After completing one
+                            process (e.g., resizing), you can immediately run the next (e.g., renaming) on the same or
+                            new batch.</p>
+                    </details>
+
+                    <details>
+                        <summary>On which operating systems is Image-Batch available?</summary>
+                        <p>Image-Batch is exclusively available for macOS 15.0 and higher. We do not currently offer
+                            versions for other operating systems.</p>
+                    </details>
+
+                    <details>
+                        <summary>Why aren't some images in my selected folder being edited?</summary>
+                        <p>Images not fully downloaded from iCloud cannot be edited. Check each image in the folder and
+                            click the cloud icon to download it before starting your batch edit.</p>
+                    </details>
+
+                    <details>
+                        <summary>What is the Preferred File Extensions setting?</summary>
+                        <p>This setting lets you choose whether Image-Batch uses Apple's preferred extensions (e.g.,
+                            .jpeg instead of .jpg). Toggle it in Settings to maintain consistent file naming across your
+                            library.</p>
+                    </details>
+
+                    <details>
+                        <summary>What is the Default Export Compression Quality setting?</summary>
+                        <p>This controls the default compression level for JPEG, WebP, HEIF, and AVIF exports. You can
+                            set your preferred quality in Settings — it applies automatically to all compressible
+                            formats. Individual Convert operations can override this with their own slider.</p>
+                    </details>
+
+                    <details>
+                        <summary>Why does processing AVIF files take longer?</summary>
+                        <p>AVIF uses advanced compression that delivers superior quality at smaller file sizes, but it
+                            requires more processing power. Please be patient when working with AVIF files — the results
+                            are worth it!</p>
+                    </details>
+
+                    <details>
+                        <summary>What is Largest Side Resizing?</summary>
+                        <p>Largest Side Resizing (Premium only) automatically detects the longest dimension of each
+                            image and resizes that side to your specified value while preserving aspect ratio. Perfect
+                            for fitting images into specific size requirements regardless of orientation.</p>
+                    </details>
                 </div>
             </div>
         </main>

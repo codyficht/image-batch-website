@@ -1159,6 +1159,67 @@ p {
     }
 }
 
+/* === Clean, Flat, Modern FAQ === */
+.privacy-body details {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.privacy-body details:last-child {
+    border-bottom: none;
+}
+
+.privacy-body summary {
+    padding: 22px 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1f2937;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    user-select: none;
+    transition: color 0.2s ease;
+}
+
+.privacy-body summary:hover {
+    color: #111827;
+}
+
+.privacy-body summary::-webkit-details-marker,
+.privacy-body summary::marker {
+    display: none;
+}
+
+.privacy-body summary::after {
+    content: '+';
+    font-size: 1.65rem;
+    line-height: 1;
+    color: #9ca3af;
+    font-weight: 300;
+    transition: transform 0.25s ease, color 0.2s ease;
+    margin-left: 20px;
+}
+
+.privacy-body details[open] summary::after {
+    content: '−';
+    transform: rotate(180deg);
+    color: #3b82f6;
+}
+
+.privacy-body details p,
+.privacy-body details ul {
+    padding: 0 0 26px 0;
+    margin: 0;
+    color: #4b5563;
+    font-size: 0.98rem;
+    line-height: 1.7;
+}
+
+.privacy-body details ul {
+    padding-left: 22px;
+}
+
 @keyframes MoveUpDownMax {
 
     0%,
