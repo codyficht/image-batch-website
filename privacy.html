@@ -17,6 +17,14 @@
     <meta name="description"
         content="Image-Batch privacy policy: 100% local bulk photo processing on your Mac — no image uploads, private batch resize, crop, and convert. Full transparency." />
     <link rel="canonical" href="https://www.image-batch.com/privacy.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Image-Batch">
+    <meta property="og:title" content="Image-Batch Privacy Policy | Local Processing, No Uploads">
+    <meta property="og:description" content="Image-Batch processes photos on your Mac. This policy covers the app and the website.">
+    <meta property="og:image" content="https://www.image-batch.com/images/social_banner.png">
+    <meta property="og:url" content="https://www.image-batch.com/privacy.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.image-batch.com/images/social_banner.png">
     <link href="main.css" rel="stylesheet" />
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -71,9 +79,9 @@
                 </div>
             </div>
             <div id="app-store-link">
-                <a href="#" rel="noopener" onclick="openAppStore(event)">
+                <a href="https://apps.apple.com/app/id1671363479?mt=12" rel="noopener" onclick="openAppStore(event)">
                     <img src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-                        class="mac-app-store-button">
+                        class="mac-app-store-button" alt="Download Image-Batch on the Mac App Store">
                 </a>
                 <p class="mac-requirement">
                     <strong>*</strong> Requires macOS 15.0 or later.
@@ -94,6 +102,12 @@
                         order to provide certain functionalities such as in-app purchases, some data related to
                         purchases may be collected. Importantly, this data is not linked to any individual's identity
                         and serves only the purpose of facilitating the in-app purchase functionality.</p>
+                    <h4>This Website</h4>
+                    <p>The Image-Batch app does not upload your photos. This website is separate. It uses Google
+                        Analytics and Google Ads, a Meta pixel, Google Fonts, and Font Awesome to measure visits and
+                        show the page. The contact page embeds a Typeform form so you can send a message. Those services
+                        receive normal browser data such as your IP address and pages viewed. They do not receive the
+                        images you edit in the app.</p>
                     <h4>Contacting Us</h4>
                     <p>If you have any questions or concerns, please feel free to <a href="contact.html">contact us.</a>
                     </p>
@@ -103,13 +117,13 @@
     </div>
     <footer class="footer">
         <h2 class="white-h2">Ready to batch edit hundreds of images? <strong>Image-Batch</strong> makes
-            it effortless. <span class="shake">🚀</span> <strong><em style="color: #2ECC71;">Download for FREE
-                    today!</em></strong></h2>
+            it effortless. <span class="shake">🚀</span> <strong><em style="color: #2ECC71;">Try Lite free
+                    on 3 images at a time.</em></strong></h2>
         <div id="app-store-link">
             <div class="filler-white"></div>
-            <a href="#" rel="noopener" onclick="openAppStore(event)">
+            <a href="https://apps.apple.com/app/id1671363479?mt=12" rel="noopener" onclick="openAppStore(event)">
                 <img src="images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg"
-                    class="mac-app-store-button light-version">
+                    class="mac-app-store-button light-version" alt="Download Image-Batch on the Mac App Store">
             </a>
             <p class="mac-requirement light-version">
                 <strong>*</strong> Requires macOS 15.0 or later.
@@ -134,7 +148,7 @@
         });
         function openAppStore(event) {
             event.preventDefault();
-            var macAppStoreURL = 'https://apps.apple.com/ca/app/image-batch/id1671363479?mt=12';
+            var macAppStoreURL = 'https://apps.apple.com/app/id1671363479?mt=12';
             var thanksURL = 'thanks.html';
             var platform = navigator.platform.toUpperCase();
             if (platform.indexOf('MAC') >= 0 || platform.indexOf('IPAD') >= 0 || platform.indexOf('IPHONE') >= 0) {

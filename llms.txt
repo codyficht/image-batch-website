@@ -1,0 +1,39 @@
+# Image-Batch
+
+> Native Mac app that batch resizes, crops, compresses, converts, watermarks, renames, rotates, and finds duplicate photos. Editing stays on your Mac. No subscription.
+
+Image-Batch is a bulk photo editor for macOS 15 or later. That includes Apple silicon Macs and Intel Macs that run macOS 15. The app is under 10 MB. It does not need the internet to edit, and photos are not uploaded.
+
+It is made for photographers, graphic designers, content creators, and social media managers who regularly handle batches of images. People also use it to prepare product photos and to convert a folder of iPhone HEIC photos to JPEG.
+
+## Editions
+
+- Lite is free. Up to 3 images at a time: resize by width, crop, compress by percentage, convert to JPEG, watermark, rename, and find duplicates. You select a folder.
+- Pro is $8.99 once. Up to 40 images at a time. It adds resize by height, PNG, HEIF, and TIFF conversion, custom crop and watermark position, customizable renaming, Direct Edit Mode, custom output folder names, and selecting individual image files.
+- Premium is $19.99 once. Unlimited images at a time (tested with more than 500). It adds compress to a target file size, crop to exact pixel dimensions, largest-side resize, AVIF and WebP conversion, and rotate and flip.
+- If you already have Pro, the Pro to Premium upgrade is $12.99 once.
+- Prices are in US dollars. The Mac App Store shows local currency.
+- Customers who bought an earlier one-time purchase keep lifetime access to all features, plus free updates.
+
+## How it works
+
+1. Drop a folder of images. Edited copies go to a new folder unless Direct Edit is on (Pro and Premium).
+2. Pick one tool and set the options. Image-Batch runs one operation at a time.
+3. Run the next tool on the output folder if you need another change.
+
+Subfolders are not processed. Images that are still only in iCloud have to be downloaded first. Photos in the Apple Photos app need to be dragged into a folder on the Mac first.
+
+Supported formats: JPEG/JPG, PNG, TIFF, HEIF/HEIC, WebP, and AVIF.
+
+## Links
+
+- Home: https://www.image-batch.com/
+- Pricing: https://www.image-batch.com/pricing.html
+- FAQ: https://www.image-batch.com/faq.html
+- Updates: https://www.image-batch.com/updates.html
+- Privacy: https://www.image-batch.com/privacy.html
+- Contact: https://www.image-batch.com/contact.html
+- Mac App Store: https://apps.apple.com/app/id1671363479?mt=12
+
+Developer: Cody Ficht
+Current version: 4.1.7
