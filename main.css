@@ -596,7 +596,8 @@ iframe {
     margin-bottom: 80px;
 }
 
-#content-container-privacy {
+#content-container-privacy,
+#content-container-pricing {
     margin: 0 auto;
     padding-top: 20px;
     margin-top: 0px;
@@ -761,7 +762,8 @@ p {
         margin-top: 0;
     }
 
-    #content-container-privacy {
+    #content-container-privacy,
+    #content-container-pricing {
         margin-top: 0;
     }
 
@@ -949,7 +951,8 @@ p {
         margin-top: 140px;
     }
 
-    #content-container-privacy {
+    #content-container-privacy,
+    #content-container-pricing {
         margin-top: 80px;
     }
 
