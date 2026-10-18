@@ -907,7 +907,8 @@ p {
     }
 
     .footer {
-        height: 300px;
+        height: auto;
+        padding-bottom: 24px;
     }
 
     #form {
@@ -1093,6 +1094,7 @@ p {
 
     .white-h2 {
         max-width: 96%;
+        padding-top: 18px;
     }
 
 }
