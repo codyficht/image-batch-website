@@ -8,8 +8,8 @@ It is made for photographers, graphic designers, content creators, and social me
 
 ## Editions
 
-- Lite is free. Up to 3 images at a time: resize by width, crop, compress by percentage, convert to JPEG, watermark, rename, and find duplicates. You select a folder.
-- Pro is $8.99 once. Up to 40 images at a time. It adds resize by height, PNG, HEIF, and TIFF conversion, custom crop and watermark position, customizable renaming, Direct Edit Mode, custom output folder names, and selecting individual image files.
+- Lite is free. Up to 3 images at a time: resize by width, crop, compress by a fixed 5% (the slider unlocks in Pro), convert to JPEG, watermark, rename, and find duplicates. You select a folder.
+- Pro is $8.99 once. Up to 40 images at a time. It adds resize by height, PNG, HEIF, and TIFF conversion, compress and convert quality sliders, custom crop and watermark position, customizable renaming, Direct Edit Mode, custom output folder names, and selecting individual image files.
 - Premium is $19.99 once. Unlimited images at a time (tested with more than 500). It adds compress to a target file size, crop to exact pixel dimensions, largest-side resize, AVIF and WebP conversion, and rotate and flip.
 - If you already have Pro, the Pro to Premium upgrade is $12.99 once.
 - Prices are in US dollars. The Mac App Store shows local currency.
