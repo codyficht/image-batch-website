@@ -27,13 +27,13 @@ Supported formats: JPEG/JPG, PNG, TIFF, HEIF/HEIC, WebP, and AVIF.
 
 ## Links
 
-- Home: https://www.image-batch.com/
-- Pricing: https://www.image-batch.com/pricing.html
-- FAQ: https://www.image-batch.com/faq.html
-- Updates: https://www.image-batch.com/updates.html
-- Privacy: https://www.image-batch.com/privacy.html
-- Contact: https://www.image-batch.com/contact.html
-- Mac App Store: https://apps.apple.com/app/id1671363479?mt=12
+- [Home & Features](https://www.image-batch.com/): Overview, supported formats, and Mac App Store download
+- [Pricing](https://www.image-batch.com/pricing.html): Free Lite, Pro ($8.99), Premium ($19.99), and Pro-to-Premium ($12.99) one-time tiers
+- [FAQ](https://www.image-batch.com/faq.html): Answers on batch limits, offline editing, formats, and upgrades
+- [Updates](https://www.image-batch.com/updates.html): Release notes and version history
+- [Privacy Policy](https://www.image-batch.com/privacy.html): Local processing policy
+- [Contact](https://www.image-batch.com/contact.html): Support and feedback form
+- [Mac App Store](https://apps.apple.com/app/id1671363479?mt=12): Download Image-Batch for macOS 15+
 
 Developer: Cody Ficht
 Current version: 4.1.7
