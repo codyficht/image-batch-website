@@ -2,7 +2,7 @@
 
 > Native Mac app that batch resizes, crops, compresses, converts, watermarks, renames, rotates, and finds duplicate photos. Editing stays on your Mac. No subscription.
 
-Image-Batch is a bulk photo editor for macOS 15 or later. That includes Apple silicon Macs and Intel Macs that run macOS 15. The app is under 10 MB. It does not need the internet to edit, and photos are not uploaded.
+Image-Batch is a bulk photo editor for macOS 15 or later. That includes Apple silicon Macs and Intel Macs that run macOS 15. The app is lightweight. It does not need the internet to edit, and photos are not uploaded.
 
 It is made for photographers, graphic designers, content creators, and social media managers who regularly handle batches of images. People also use it to prepare product photos and to convert a folder of iPhone HEIC photos to JPEG.
 
@@ -25,10 +25,23 @@ Subfolders are not processed. Images that are still only in iCloud have to be do
 
 Supported formats: JPEG/JPG, PNG, TIFF, HEIF/HEIC, WebP, and AVIF.
 
+## Guides
+
+- [Guides](https://www.image-batch.com/guides/): Short how-to guides for Image-Batch: batch resize, compress, convert HEIC to JPG, WebP and AVIF, crop, watermark, rename, and find duplicates on Mac.
+- [Batch resize images](https://www.image-batch.com/guides/batch-resize-images-mac.html): Resize a folder of photos by width, height, or largest side.
+- [Compress images to a file size](https://www.image-batch.com/guides/compress-images-to-file-size-mac.html): Shrink photos to a target size in KB or MB, or by a percentage.
+- [Convert HEIC to JPG](https://www.image-batch.com/guides/convert-heic-to-jpg-mac.html): Turn a folder of iPhone HEIC photos into JPEG, offline.
+- [Convert images to WebP or AVIF](https://www.image-batch.com/guides/convert-images-to-webp-avif-mac.html): Batch convert photos to WebP, AVIF, and other formats.
+- [Batch crop images](https://www.image-batch.com/guides/batch-crop-images-mac.html): Crop a folder of photos to an aspect ratio or an exact size.
+- [Batch watermark photos](https://www.image-batch.com/guides/batch-watermark-photos-mac.html): Add a logo or watermark to every photo in a folder.
+- [Batch rename photos](https://www.image-batch.com/guides/batch-rename-files-mac.html): Give a folder of photos a shared name, a count, and a separator.
+- [Find duplicate photos](https://www.image-batch.com/guides/find-duplicate-photos-mac.html): Keep one copy of each photo and collect the unique files.
+
 ## Links
 
 - [Home & Features](https://www.image-batch.com/): Overview, supported formats, and Mac App Store download
 - [Pricing](https://www.image-batch.com/pricing.html): Free Lite, Pro ($8.99), Premium ($19.99), and Pro-to-Premium ($12.99) one-time tiers
+- [Guides](https://www.image-batch.com/guides/): How-to pages for each Image-Batch tool
 - [FAQ](https://www.image-batch.com/faq.html): Answers on batch limits, offline editing, formats, and upgrades
 - [Updates](https://www.image-batch.com/updates.html): Release notes and version history
 - [Privacy Policy](https://www.image-batch.com/privacy.html): Local processing policy

@@ -148,15 +148,6 @@ main {
     max-width: 1000px;
 }
 
-.filler-white {
-    display: none;
-    background-color: #f1f1f1;
-    width: 170px;
-    height: 40px;
-    border-radius: 6px;
-    margin: 0 auto;
-}
-
 .filler {
     display: none;
     background-color: #1f1f1f;
@@ -286,6 +277,7 @@ iframe {
     font-size: 0.8em;
     transition: 0.5s;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
 }
 
 #top-links a {
@@ -294,6 +286,7 @@ iframe {
     margin-right: 30px;
     transition-duration: 0.2s;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .hamburger {
@@ -619,23 +612,30 @@ iframe {
 
 .footer {
     background-color: #1f1f1f;
+    box-sizing: border-box;
     width: 100%;
-    height: 300px;
+    height: auto;
     text-align: center;
+    padding: 44px 24px 36px;
 }
 
-.white-h2 {
-    font-size: 1.8em;
+.footer-tagline {
+    max-width: 34rem;
+    margin: 0 auto 28px;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1rem;
     font-weight: 400;
-    padding-top: 40px;
-    color: white;
-    max-width: 90%;
-    margin: 0 auto;
-    min-height: 66px;
+    line-height: 1.45;
+    text-wrap: balance;
 }
 
-.brand-nowrap {
-    white-space: nowrap;
+.footer .app-store-link {
+    margin: 0 0 28px;
+}
+
+.footer .mac-requirement {
+    margin-bottom: 0;
 }
 
 .most-popular-badge {
@@ -651,25 +651,26 @@ iframe {
     margin-top: 2px;
 }
 
-.white-h4 {
-    font-size: 1.2em;
-    font-weight: 400;
-    color: white;
-}
-
 #btm-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 16px;
+    margin: 0;
     text-align: center;
-    margin: 5px;
-    margin-top: 80px;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 0.8em;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
 }
 
 #btm-links a {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0;
     text-decoration: none;
-    color: white;
+    color: #9ca3af;
+    white-space: nowrap;
+}
+
+#btm-links a:hover {
+    color: #d4d4d8;
 }
 
 .privacy-title {
@@ -719,34 +720,6 @@ p {
 .spin {
     display: inline-block;
     animation: spin 12s linear infinite;
-}
-
-@keyframes shake {
-    0% {
-        transform: translate(0px, 0px) rotate(0deg);
-    }
-
-    25% {
-        transform: translate(-2px, 0px) rotate(-7deg);
-    }
-
-    50% {
-        transform: translate(1px, 2px) rotate(0deg);
-    }
-
-    50% {
-        transform: translate(2px, 0px) rotate(-2deg);
-    }
-
-    75% {
-        transform: translate(0px, 3px) rotate(-5deg);
-    }
-
-}
-
-.shake {
-    display: inline-block;
-    animation: shake 2s linear infinite;
 }
 
 @media screen and (max-width:1200px) {
@@ -894,11 +867,6 @@ p {
     .mobile-only {
         display: block !important;
         /* Display for mobile screens */
-    }
-
-    .footer {
-        height: auto;
-        padding-bottom: 24px;
     }
 
     #form {
@@ -1083,19 +1051,8 @@ p {
         font-size: 1.5em;
     }
 
-    #btm-links {
-        display: none;
-        font-size: 0.9em;
-        margin-top: 120px;
-    }
-
     .privacy-title {
         margin-top: 70px;
-    }
-
-    .white-h2 {
-        max-width: 96%;
-        padding-top: 18px;
     }
 
 }
@@ -1113,12 +1070,6 @@ p {
     .mac-requirement {
         font-size: 12px;
     }
-
-    #btm-links {
-        font-size: 0.8em;
-        margin-top: 100px;
-    }
-
 
     #form {
         height: 930px;
@@ -1158,11 +1109,6 @@ p {
     #header-background-xsm {
         display: block;
 
-    }
-
-    #btm-links {
-        font-size: 0.8em;
-        margin-top: 64px;
     }
 
     #wrap {
@@ -1599,6 +1545,260 @@ p {
 @media screen and (max-width: 319px) {
     .fact-pill-formats {
         white-space: normal;
+    }
+}
+
+/* === Guides === */
+/* Desktop nav: "Guides" replaces the width saved by shortening "Home / Features".
+   The row is nowrap above the 770px hamburger. From 771px to 1100px the gap
+   shrinks so nowrap cannot overflow the viewport. */
+@media screen and (max-width: 1100px) and (min-width: 771px) {
+    #top-links a {
+        margin-right: 16px;
+    }
+}
+
+body.guide-doc #header-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 1.15;
+    color: black;
+}
+
+.guide-page {
+    overflow-wrap: break-word;
+}
+
+.guide-page > h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.9em;
+    line-height: 1.2;
+    color: #111827;
+    text-align: left;
+    text-wrap: balance;
+    margin: 0 0 14px;
+}
+
+.guide-page h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.35rem;
+    line-height: 1.3;
+    color: #111827;
+    text-align: left;
+    text-wrap: balance;
+    margin: 1.75rem 0 0.65rem;
+}
+
+.guide-lede {
+    text-align: left;
+    text-wrap: pretty;
+    color: #1f2937;
+    font-size: 1.125rem;
+    line-height: 1.55;
+    margin: 0 0 28px;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.35em;
+    row-gap: 0.2em;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 0 0 16px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #6b7280;
+    text-align: left;
+}
+
+.breadcrumb a {
+    color: #2c6cb5;
+    text-decoration: none;
+}
+
+.breadcrumb .crumb {
+    white-space: nowrap;
+}
+
+.breadcrumb .crumb-current {
+    white-space: normal;
+    text-wrap: pretty;
+}
+
+.guides-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin: 0 0 36px;
+    text-align: left;
+}
+
+.guide-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.guide-card:hover,
+.guide-card:focus-visible {
+    border-color: #cbd5e1;
+    background: #f1f5f9;
+}
+
+.guide-card:focus-visible {
+    outline: 2px solid #2c6cb5;
+    outline-offset: 2px;
+}
+
+.guide-card h2 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    margin: 0 0 6px;
+}
+
+.guide-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: #4b5563;
+    text-wrap: pretty;
+}
+
+.guide-steps {
+    list-style: none;
+    margin: 0 0 32px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.guide-steps > li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0;
+    text-align: left;
+}
+
+.guide-steps > li p {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    text-wrap: pretty;
+    text-align: left;
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: #1f2937;
+}
+
+.guide-figure {
+    margin: 8px auto 36px;
+    text-align: center;
+}
+
+.guide-figure img {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 2px rgba(17, 24, 39, 0.06);
+}
+
+.guide-figure figcaption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #6b7280;
+    text-wrap: pretty;
+}
+
+.guide-tips {
+    margin: 0 0 8px;
+    padding: 0 0 0 1.25em;
+    text-align: left;
+}
+
+.guide-tips li {
+    margin: 0 0 10px;
+    text-wrap: pretty;
+    color: #1f2937;
+    line-height: 1.5;
+}
+
+.related-guides {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 32px;
+}
+
+.related-guides a {
+    color: #2c6cb5;
+    text-decoration: none;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    white-space: nowrap;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.related-guides a:hover,
+.related-guides a:focus-visible {
+    border-color: #cbd5e1;
+    background: #f1f5f9;
+}
+
+.guide-keep {
+    white-space: nowrap;
+}
+
+.privacy-body details a {
+    color: #2c6cb5;
+}
+
+@media screen and (min-width: 700px) {
+    .guides-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 770px) {
+    body.guide-doc #header-title {
+        font-size: 2.2em;
+    }
+
+    .guide-page > h1 {
+        font-size: 1.5em;
+    }
+
+    .guide-lede {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body.guide-doc #header-title {
+        font-size: 1.8em;
     }
 }
 
