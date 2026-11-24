@@ -1179,6 +1179,37 @@ p {
     border-bottom: none;
 }
 
+/* Icons are Font Awesome Free 5.15.3 solid glyphs (CC BY 4.0): https://fontawesome.com/license/free */
+.site-icon {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    vertical-align: -0.125em;
+    overflow: visible;
+    flex-shrink: 0;
+}
+
+.privacy-body h3.faq-group-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+    text-wrap: balance;
+    margin-top: 2.75rem;
+    margin-bottom: 0.35rem;
+}
+
+.faq-group:first-child h3.faq-group-title {
+    margin-top: 0.25rem;
+}
+
+.privacy-body .faq-group details:last-child {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.privacy-body .faq-group:last-child details:last-child {
+    border-bottom: none;
+}
+
 .privacy-body summary {
     padding: 22px 0;
     font-size: 1.05rem;
