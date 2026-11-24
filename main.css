@@ -505,6 +505,10 @@ iframe {
     width: 46%;
 }
 
+#banner-1 h2 {
+    text-wrap: balance;
+}
+
 #banner-1 #banner-1-tagline-sub {
     color: rgba(10, 10, 10, 0.72);
 }
@@ -700,22 +704,6 @@ p {
 #header-title a {
     text-decoration: none;
     color: black;
-}
-
-@keyframes shiny-green {
-    0% {
-        background-position: -200%;
-    }
-
-    100% {
-        background-position: 200%;
-    }
-}
-
-.shiny {
-    animation: shiny-green 6s linear infinite;
-    background: linear-gradient(90deg, transparent, #f8f543, transparent);
-    background-size: 200%;
 }
 
 @keyframes spin {
