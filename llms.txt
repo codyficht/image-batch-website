@@ -36,4 +36,4 @@ Supported formats: JPEG/JPG, PNG, TIFF, HEIF/HEIC, WebP, and AVIF.
 - [Mac App Store](https://apps.apple.com/app/id1671363479?mt=12): Download Image-Batch for macOS 15+
 
 Developer: Cody Ficht
-Current version: 4.1.7
+Current version: 4.2.0
